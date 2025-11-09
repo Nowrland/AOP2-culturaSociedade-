@@ -1,0 +1,192 @@
+body {
+  background-color: #1C3D55;
+  font-family: 'open sans';
+  margin: 0; 
+  padding: 0;
+  color: white;
+}
+
+.main_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 5px;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.intro, .content_1, .content_2, .content_3, .content_4, .content_5, .content_6, .content_7, .content_8, .content_9, .content_10, .content_11 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.intro_contact {
+  text-align: center;
+}
+
+.button_end_page {
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+
+.content_table {
+  text-align: center;
+}
+
+table, th, td {
+  text-align: center;
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+
+table {
+  border-width: 1px;
+  display: inline-block;
+}
+
+th {
+  background-color: #062033;
+  padding: 7px;
+}
+
+td {
+  background-color: #084a79;
+  padding: 7px;
+}
+
+form {
+  padding-bottom: 20px;
+}
+
+#h2_contact {
+  color: black;
+  background-color: #ffebcd;
+  padding: 20px;
+}
+
+#arrow {
+  width: auto;
+}
+
+input {
+  width: 25%;
+}
+
+textarea {
+  width: 25%;
+}
+
+/* BUTTONS */
+
+button {
+  font-style: 'Open Sans';
+  background-color: #ffebcd;
+  border: none;
+  color: #1C3D55;
+  padding: 8px 16px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffebcde0;
+  color: #1C3D55;
+}
+
+button:active {
+  background-color: green;
+  color: #ffebcd;
+}
+
+/* LINKS */
+
+a:link {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(230, 182, 182);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #ffebcd;
+  text-align: center;
+  padding-top: 12px;
+  padding-right: auto;
+  padding-bottom: 12px;
+  padding-left: auto;
+}
+
+.footer_build {
+  color: black;
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+.footer_one {
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 2px;
+  padding-top: 2px; 
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footer_two {
+  font-style: normal;
+  font-weight: lighter;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 5;
+  padding-bottom: 5;
+}
+
+.footer_three {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 13px;
+  margin-top: 7px;
+  padding-top: 7px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+
+.footer_nav {
+  background-color: #1C3D55;
+  text-align: center;
+  display: inline-block;
+  font-weight: normal;
+  border-radius: 25px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+}
